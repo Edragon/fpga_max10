@@ -1,0 +1,15 @@
+|rom
+addr[0] => romdata.RADDR
+addr[1] => romdata.RADDR1
+addr[2] => romdata.RADDR2
+addr[3] => romdata.RADDR3
+data[0] << romdata.DATAOUT
+data[1] << romdata.DATAOUT1
+data[2] << romdata.DATAOUT2
+data[3] << romdata.DATAOUT3
+data[4] << romdata.DATAOUT4
+data[5] << romdata.DATAOUT5
+data[6] << romdata.DATAOUT6
+data[7] << romdata.DATAOUT7
+
+

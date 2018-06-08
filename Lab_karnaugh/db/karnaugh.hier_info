@@ -1,0 +1,14 @@
+|karnaugh
+a => f.IN0
+a => f.IN0
+b => f.IN0
+b => f.IN1
+c => f.IN1
+c => f.IN1
+c => f.IN1
+d => f.IN1
+d => f.IN1
+d => f.IN1
+led << f.DB_MAX_OUTPUT_PORT_TYPE
+
+

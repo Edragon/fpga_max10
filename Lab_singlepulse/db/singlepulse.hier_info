@@ -1,0 +1,11 @@
+|singlepulse
+clk => cont[0].CLK
+clk => cont[1].CLK
+clk => cont[2].CLK
+rst_n => cont.OUTPUTSELECT
+rst_n => cont.OUTPUTSELECT
+rst_n => cont.OUTPUTSELECT
+load => cont.DATAA
+q << q.DB_MAX_OUTPUT_PORT_TYPE
+
+

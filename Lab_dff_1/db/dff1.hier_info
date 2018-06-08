@@ -1,0 +1,7 @@
+|dff1
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

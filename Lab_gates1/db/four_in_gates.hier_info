@@ -1,0 +1,33 @@
+|four_in_gates
+a[0] => WideAnd0.IN0
+a[0] => WideNand0.IN0
+a[0] => WideOr0.IN0
+a[0] => WideNor0.IN0
+a[0] => WideXor0.IN0
+a[0] => WideXnor0.IN0
+a[1] => WideAnd0.IN1
+a[1] => WideNand0.IN1
+a[1] => WideOr0.IN1
+a[1] => WideNor0.IN1
+a[1] => WideXor0.IN1
+a[1] => WideXnor0.IN1
+a[2] => WideAnd0.IN2
+a[2] => WideNand0.IN2
+a[2] => WideOr0.IN2
+a[2] => WideNor0.IN2
+a[2] => WideXor0.IN2
+a[2] => WideXnor0.IN2
+a[3] => WideAnd0.IN3
+a[3] => WideNand0.IN3
+a[3] => WideOr0.IN3
+a[3] => WideNor0.IN3
+a[3] => WideXor0.IN3
+a[3] => WideXnor0.IN3
+led[0] << WideXnor0.DB_MAX_OUTPUT_PORT_TYPE
+led[1] << WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+led[2] << WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+led[3] << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+led[4] << WideNand0.DB_MAX_OUTPUT_PORT_TYPE
+led[5] << WideAnd0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,54 @@
+|Segment_Top
+sw[0] => sw[0].IN2
+sw[1] => sw[1].IN2
+sw[2] => sw[2].IN2
+sw[3] => sw[3].IN2
+segment_led_1[0] << Segment_led:Segment_led_uut.segment_led_1
+segment_led_1[1] << Segment_led:Segment_led_uut.segment_led_1
+segment_led_1[2] << Segment_led:Segment_led_uut.segment_led_1
+segment_led_1[3] << Segment_led:Segment_led_uut.segment_led_1
+segment_led_1[4] << Segment_led:Segment_led_uut.segment_led_1
+segment_led_1[5] << Segment_led:Segment_led_uut.segment_led_1
+segment_led_1[6] << Segment_led:Segment_led_uut.segment_led_1
+segment_led_1[7] << Segment_led:Segment_led_uut.segment_led_1
+segment_led_1[8] << Segment_led:Segment_led_uut.segment_led_1
+segment_led_2[0] << Segment_led:Segment_led_uut.segment_led_2
+segment_led_2[1] << Segment_led:Segment_led_uut.segment_led_2
+segment_led_2[2] << Segment_led:Segment_led_uut.segment_led_2
+segment_led_2[3] << Segment_led:Segment_led_uut.segment_led_2
+segment_led_2[4] << Segment_led:Segment_led_uut.segment_led_2
+segment_led_2[5] << Segment_led:Segment_led_uut.segment_led_2
+segment_led_2[6] << Segment_led:Segment_led_uut.segment_led_2
+segment_led_2[7] << Segment_led:Segment_led_uut.segment_led_2
+segment_led_2[8] << Segment_led:Segment_led_uut.segment_led_2
+
+
+|Segment_Top|Segment_led:Segment_led_uut
+seg_data_1[0] => seg.RADDR
+seg_data_1[1] => seg.RADDR1
+seg_data_1[2] => seg.RADDR2
+seg_data_1[3] => seg.RADDR3
+seg_data_2[0] => seg.PORTBRADDR
+seg_data_2[1] => seg.PORTBRADDR1
+seg_data_2[2] => seg.PORTBRADDR2
+seg_data_2[3] => seg.PORTBRADDR3
+segment_led_1[0] <= seg.DATAOUT
+segment_led_1[1] <= seg.DATAOUT1
+segment_led_1[2] <= seg.DATAOUT2
+segment_led_1[3] <= seg.DATAOUT3
+segment_led_1[4] <= seg.DATAOUT4
+segment_led_1[5] <= seg.DATAOUT5
+segment_led_1[6] <= seg.DATAOUT6
+segment_led_1[7] <= seg.DATAOUT7
+segment_led_1[8] <= seg.DATAOUT8
+segment_led_2[0] <= seg.PORTBDATAOUT
+segment_led_2[1] <= seg.PORTBDATAOUT1
+segment_led_2[2] <= seg.PORTBDATAOUT2
+segment_led_2[3] <= seg.PORTBDATAOUT3
+segment_led_2[4] <= seg.PORTBDATAOUT4
+segment_led_2[5] <= seg.PORTBDATAOUT5
+segment_led_2[6] <= seg.PORTBDATAOUT6
+segment_led_2[7] <= seg.PORTBDATAOUT7
+segment_led_2[8] <= seg.PORTBDATAOUT8
+
+

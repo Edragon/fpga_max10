@@ -1,0 +1,16 @@
+To			,	Location
+
+//FPGA 时钟
+clk			,	PIN_J5
+
+//按键模块
+rst			,	PIN_J14
+
+//拨码开关
+din			,	PIN_J12
+
+//LED灯模块
+q[0]			,	PIN_K11
+q[1]			,	PIN_L11
+q[2]			,	PIN_K12
+q[3]			,	PIN_L15

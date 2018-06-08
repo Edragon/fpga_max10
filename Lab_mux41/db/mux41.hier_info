@@ -1,0 +1,31 @@
+|mux41
+c[0] => c[0].IN1
+c[1] => c[1].IN1
+c[2] => c[2].IN1
+c[3] => c[3].IN1
+key1 => s0.IN2
+key2 => s1.IN1
+led << mux21:mux21_m3.y
+
+
+|mux41|mux21:mux21_m1
+a => y.DATAB
+b => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux41|mux21:mux21_m2
+a => y.DATAB
+b => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux41|mux21:mux21_m3
+a => y.DATAB
+b => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

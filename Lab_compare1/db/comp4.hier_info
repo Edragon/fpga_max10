@@ -1,0 +1,38 @@
+|comp4
+x[0] => Gout.IN0
+x[0] => Lout.IN0
+x[1] => Gout.IN0
+x[1] => Gout.IN1
+x[1] => Lout.IN1
+x[1] => Lout.IN0
+x[2] => Gout.IN0
+x[2] => Gout.IN1
+x[2] => Lout.IN1
+x[2] => Lout.IN0
+x[3] => Gout.IN0
+x[3] => Gout.IN1
+x[3] => Eout.IN0
+x[3] => Eout.IN0
+x[3] => Lout.IN1
+x[3] => Lout.IN0
+y[0] => Lout.IN1
+y[0] => Gout.IN1
+y[1] => Lout.IN1
+y[1] => Lout.IN1
+y[1] => Gout.IN1
+y[1] => Gout.IN1
+y[2] => Lout.IN1
+y[2] => Lout.IN1
+y[2] => Gout.IN1
+y[2] => Gout.IN1
+y[3] => Eout.IN1
+y[3] => Lout.IN1
+y[3] => Lout.IN1
+y[3] => Gout.IN1
+y[3] => Gout.IN1
+y[3] => Eout.IN1
+gt_led << G[4].DB_MAX_OUTPUT_PORT_TYPE
+eq_led << E[4].DB_MAX_OUTPUT_PORT_TYPE
+lt_led << L[4].DB_MAX_OUTPUT_PORT_TYPE
+
+

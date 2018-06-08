@@ -1,0 +1,20 @@
+|mux21
+a => y1.IN0
+a => y2.DATAB
+a => y3.DATAB
+a => y4.DATAA
+b => y1.IN0
+b => y2.DATAA
+b => y3.DATAA
+b => y4.DATAB
+s => y1.IN1
+s => y4.OUTPUTSELECT
+s => y3.OUTPUTSELECT
+s => y2.OUTPUTSELECT
+s => y1.IN1
+led[0] << y1.DB_MAX_OUTPUT_PORT_TYPE
+led[1] << y2.DB_MAX_OUTPUT_PORT_TYPE
+led[2] << y3.DB_MAX_OUTPUT_PORT_TYPE
+led[3] << y4.DB_MAX_OUTPUT_PORT_TYPE
+
+

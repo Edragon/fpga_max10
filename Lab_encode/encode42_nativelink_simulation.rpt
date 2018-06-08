@@ -1,0 +1,343 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  max10
+Quartus root          :  c:/altera/15.0/quartus/bin64/
+Quartus sim root      :  c:/altera/15.0/quartus/eda/sim_lib
+Simulation Tool       :  modelsim
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  encode42.vo
+Sim SDF file          :  encode42__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim software
+Sourced NativeLink script c:/altera/15.0/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Probing transcript
+ModelSim Info: # Reading C:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+ModelSim Info: # //  ModelSim SE-64 10.1c Jul 28 2012 
+ModelSim Info: # //
+ModelSim Info: # //  Copyright 1991-2012 Mentor Graphics Corporation
+ModelSim Info: # //  All Rights Reserved.
+ModelSim Info: # //
+ModelSim Info: # //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+ModelSim Info: # //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+ModelSim Info: # //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+ModelSim Info: # //
+ModelSim Info: # do encode42_run_msim_gate_verilog.do 
+ModelSim Info: # if ![file isdirectory verilog_libs] {
+ModelSim Info: # 	file mkdir verilog_libs
+ModelSim Info: # }
+ModelSim Info: # 
+ModelSim Info: # vlib verilog_libs/altera_ver
+ModelSim Info: # vmap altera_ver ./verilog_libs/altera_ver
+ModelSim Info: # Copying C:\modeltech64_10.1c\win64/../modelsim.ini to modelsim.ini
+ModelSim Info: # Modifying modelsim.ini
+ModelSim Warning: # ** Warning: Copied C:\modeltech64_10.1c\win64/../modelsim.ini to modelsim.ini.
+ModelSim Info: #          Updated modelsim.ini.
+ModelSim Info: # vlog -vlog01compat -work altera_ver {c:/altera/15.0/quartus/eda/sim_lib/altera_primitives.v}
+ModelSim Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+ModelSim Info: # -- Compiling module global
+ModelSim Info: # -- Compiling module carry
+ModelSim Info: # -- Compiling module cascade
+ModelSim Info: # -- Compiling module carry_sum
+ModelSim Info: # -- Compiling module exp
+ModelSim Info: # -- Compiling module soft
+ModelSim Info: # -- Compiling module opndrn
+ModelSim Info: # -- Compiling module row_global
+ModelSim Info: # -- Compiling module TRI
+ModelSim Info: # -- Compiling module lut_input
+ModelSim Info: # -- Compiling module lut_output
+ModelSim Info: # -- Compiling module latch
+ModelSim Info: # -- Compiling module dlatch
+ModelSim Info: # -- Compiling module prim_gdff
+ModelSim Info: # -- Compiling module dff
+ModelSim Info: # -- Compiling module dffe
+ModelSim Info: # -- Compiling module dffea
+ModelSim Info: # -- Compiling module dffeas
+ModelSim Info: # -- Compiling module prim_gtff
+ModelSim Info: # -- Compiling module tff
+ModelSim Info: # -- Compiling module tffe
+ModelSim Info: # -- Compiling module prim_gjkff
+ModelSim Info: # -- Compiling module jkff
+ModelSim Info: # -- Compiling module jkffe
+ModelSim Info: # -- Compiling module prim_gsrff
+ModelSim Info: # -- Compiling module srff
+ModelSim Info: # -- Compiling module srffe
+ModelSim Info: # -- Compiling module clklock
+ModelSim Info: # -- Compiling module alt_inbuf
+ModelSim Info: # -- Compiling module alt_outbuf
+ModelSim Info: # -- Compiling module alt_outbuf_tri
+ModelSim Info: # -- Compiling module alt_iobuf
+ModelSim Info: # -- Compiling module alt_inbuf_diff
+ModelSim Info: # -- Compiling module alt_outbuf_diff
+ModelSim Info: # -- Compiling module alt_outbuf_tri_diff
+ModelSim Info: # -- Compiling module alt_iobuf_diff
+ModelSim Info: # -- Compiling module alt_bidir_diff
+ModelSim Info: # -- Compiling module alt_bidir_buf
+ModelSim Info: # -- Compiling UDP PRIM_GDFF_LOW
+ModelSim Info: # -- Compiling UDP PRIM_GDFF_HIGH
+ModelSim Info: # 
+ModelSim Info: # Top level modules:
+ModelSim Info: # 	global
+ModelSim Info: # 	carry
+ModelSim Info: # 	cascade
+ModelSim Info: # 	carry_sum
+ModelSim Info: # 	exp
+ModelSim Info: # 	soft
+ModelSim Info: # 	opndrn
+ModelSim Info: # 	row_global
+ModelSim Info: # 	TRI
+ModelSim Info: # 	lut_input
+ModelSim Info: # 	lut_output
+ModelSim Info: # 	latch
+ModelSim Info: # 	dlatch
+ModelSim Info: # 	dff
+ModelSim Info: # 	dffe
+ModelSim Info: # 	dffea
+ModelSim Info: # 	dffeas
+ModelSim Info: # 	tff
+ModelSim Info: # 	tffe
+ModelSim Info: # 	jkff
+ModelSim Info: # 	jkffe
+ModelSim Info: # 	srff
+ModelSim Info: # 	srffe
+ModelSim Info: # 	clklock
+ModelSim Info: # 	alt_inbuf
+ModelSim Info: # 	alt_outbuf
+ModelSim Info: # 	alt_outbuf_tri
+ModelSim Info: # 	alt_iobuf
+ModelSim Info: # 	alt_inbuf_diff
+ModelSim Info: # 	alt_outbuf_diff
+ModelSim Info: # 	alt_outbuf_tri_diff
+ModelSim Info: # 	alt_iobuf_diff
+ModelSim Info: # 	alt_bidir_diff
+ModelSim Info: # 	alt_bidir_buf
+ModelSim Info: # 
+ModelSim Info: # vlib verilog_libs/altera_lnsim_ver
+ModelSim Info: # vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver
+ModelSim Info: # Modifying modelsim.ini
+ModelSim Info: # vlog -sv -work altera_lnsim_ver {c:/altera/15.0/quartus/eda/sim_lib/altera_lnsim.sv}
+ModelSim Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+ModelSim Info: # -- Compiling package altera_lnsim_functions
+ModelSim Info: # -- Compiling package altera_generic_pll_functions
+ModelSim Info: # -- Compiling module generic_pll
+ModelSim Info: # -- Importing package altera_lnsim_functions
+ModelSim Info: # -- Importing package altera_generic_pll_functions
+ModelSim Info: # -- Compiling module generic_cdr
+ModelSim Info: # -- Compiling module common_28nm_ram_pulse_generator
+ModelSim Info: # -- Compiling module common_28nm_ram_register
+ModelSim Info: # -- Compiling module common_28nm_ram_block
+ModelSim Info: # -- Compiling module generic_m20k
+ModelSim Info: # -- Compiling module generic_m10k
+ModelSim Info: # -- Compiling module common_28nm_mlab_cell_pulse_generator
+ModelSim Info: # -- Compiling module common_28nm_mlab_latch
+ModelSim Info: # -- Compiling module common_28nm_mlab_cell_core
+ModelSim Info: # -- Compiling module common_porta_latches
+ModelSim Info: # -- Compiling module generic_28nm_hp_mlab_cell_impl
+ModelSim Info: # -- Compiling module common_porta_registers
+ModelSim Info: # -- Compiling module generic_28nm_lc_mlab_cell_impl
+ModelSim Info: # -- Compiling module generic_mux
+ModelSim Info: # -- Compiling module generic_device_pll
+ModelSim Info: # -- Compiling module common_14nm_ram_pulse_generator
+ModelSim Info: # -- Compiling module common_14nm_ram_register
+ModelSim Info: # -- Compiling module fourteennm_m20k
+ModelSim Info: # -- Compiling module nadder_m20k
+ModelSim Info: # -- Compiling module altera_mult_add
+ModelSim Info: # -- Compiling module altera_mult_add_rtl
+ModelSim Info: # -- Compiling module ama_signed_extension_function
+ModelSim Info: # -- Compiling module ama_dynamic_signed_function
+ModelSim Info: # -- Compiling module ama_register_function
+ModelSim Info: # -- Compiling module ama_register_with_ext_function
+ModelSim Info: # -- Compiling module ama_data_split_reg_ext_function
+ModelSim Info: # -- Compiling module ama_coef_reg_ext_function
+ModelSim Info: # -- Compiling module ama_adder_function
+ModelSim Info: # -- Compiling module ama_multiplier_function
+ModelSim Info: # -- Compiling module ama_preadder_function
+ModelSim Info: # -- Compiling module ama_chainout_adder_accumulator_function
+ModelSim Info: # -- Compiling module ama_systolic_adder_function
+ModelSim Info: # -- Compiling module ama_scanchain
+ModelSim Info: # -- Compiling module ama_latency_function
+ModelSim Info: # -- Compiling module altera_pll_reconfig_tasks
+ModelSim Info: # -- Compiling module altera_syncram
+ModelSim Info: # -- Compiling module ALTERA_LNSIM_MEMORY_INITIALIZATION
+ModelSim Info: # -- Compiling module altera_stratixv_pll
+ModelSim Info: # -- Compiling module altera_arriav_pll
+ModelSim Info: # -- Compiling module altera_arriavgz_pll
+ModelSim Info: # -- Compiling module altera_cyclonev_pll
+ModelSim Info: # -- Compiling module altera_pll
+ModelSim Info: # -- Compiling module dps_extra_kick
+ModelSim Info: # -- Compiling module dprio_init
+ModelSim Info: # -- Compiling module dps_pulse_gen
+ModelSim Info: # -- Compiling module twentynm_iopll_ip
+ModelSim Info: # -- Compiling module altera_pll_dps_lcell_comb
+ModelSim Info: # 
+ModelSim Info: # Top level modules:
+ModelSim Info: # 	generic_cdr
+ModelSim Info: # 	generic_m20k
+ModelSim Info: # 	generic_m10k
+ModelSim Info: # 	common_porta_latches
+ModelSim Info: # 	generic_28nm_hp_mlab_cell_impl
+ModelSim Info: # 	generic_28nm_lc_mlab_cell_impl
+ModelSim Info: # 	generic_mux
+ModelSim Info: # 	generic_device_pll
+ModelSim Info: # 	nadder_m20k
+ModelSim Info: # 	altera_mult_add
+ModelSim Info: # 	altera_pll_reconfig_tasks
+ModelSim Info: # 	altera_syncram
+ModelSim Info: # 	altera_pll
+ModelSim Info: # 
+ModelSim Info: # vlib verilog_libs/fiftyfivenm_ver
+ModelSim Info: # vmap fiftyfivenm_ver ./verilog_libs/fiftyfivenm_ver
+ModelSim Info: # Modifying modelsim.ini
+ModelSim Info: # vlog -vlog01compat -work fiftyfivenm_ver {c:/altera/15.0/quartus/eda/sim_lib/fiftyfivenm_atoms.v}
+ModelSim Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+ModelSim Info: # -- Compiling UDP FIFTYFIVENM_PRIM_DFFE
+ModelSim Info: # -- Compiling UDP FIFTYFIVENM_PRIM_DFFEAS
+ModelSim Info: # -- Compiling UDP FIFTYFIVENM_PRIM_DFFEAS_HIGH
+ModelSim Info: # -- Compiling module fiftyfivenm_dffe
+ModelSim Info: # -- Compiling module fiftyfivenm_mux21
+ModelSim Info: # -- Compiling module fiftyfivenm_mux41
+ModelSim Info: # -- Compiling module fiftyfivenm_and1
+ModelSim Info: # -- Compiling module fiftyfivenm_and16
+ModelSim Info: # -- Compiling module fiftyfivenm_bmux21
+ModelSim Info: # -- Compiling module fiftyfivenm_b17mux21
+ModelSim Info: # -- Compiling module fiftyfivenm_nmux21
+ModelSim Info: # -- Compiling module fiftyfivenm_b5mux21
+ModelSim Info: # -- Compiling module fiftyfivenm_latch
+ModelSim Info: # -- Compiling module fiftyfivenm_routing_wire
+ModelSim Info: # -- Compiling module fiftyfivenm_lcell_comb
+ModelSim Info: # -- Compiling module fiftyfivenm_ff
+ModelSim Info: # -- Compiling module fiftyfivenm_ram_pulse_generator
+ModelSim Info: # -- Compiling module fiftyfivenm_ram_register
+ModelSim Info: # -- Compiling module fiftyfivenm_ram_block
+ModelSim Info: # -- Compiling module fiftyfivenm_mac_data_reg
+ModelSim Info: # -- Compiling module fiftyfivenm_mac_sign_reg
+ModelSim Info: # -- Compiling module fiftyfivenm_mac_mult_internal
+ModelSim Info: # -- Compiling module fiftyfivenm_mac_mult
+ModelSim Info: # -- Compiling module fiftyfivenm_mac_out
+ModelSim Info: # -- Compiling module fiftyfivenm_pseudo_diff_out
+ModelSim Info: # -- Compiling module fiftyfivenm_io_pad
+ModelSim Info: # -- Compiling module fiftyfivenm_m_cntr
+ModelSim Info: # -- Compiling module fiftyfivenm_n_cntr
+ModelSim Info: # -- Compiling module fiftyfivenm_scale_cntr
+ModelSim Info: # -- Compiling module fiftyfivenm_pll_reg
+ModelSim Info: # -- Compiling module fiftyfivenm_pll
+ModelSim Info: # -- Compiling module fiftyfivenm_ena_reg
+ModelSim Info: # -- Compiling module fiftyfivenm_clkctrl
+ModelSim Info: # -- Compiling module fiftyfivenm_io_latch
+ModelSim Info: # -- Compiling module fiftyfivenm_phy_clkbuf
+ModelSim Info: # -- Compiling module fiftyfivenm_io_clock_divider
+ModelSim Info: # -- Compiling module fiftyfivenm_io_ibuf
+ModelSim Info: # -- Compiling module fiftyfivenm_io_obuf
+ModelSim Info: # -- Compiling module fiftyfivenm_ddio_out
+ModelSim Info: # -- Compiling module fiftyfivenm_ddio_oe
+ModelSim Info: # -- Compiling module fiftyfivenm_ddio_in
+ModelSim Info: # -- Compiling module fiftyfivenm_unvm
+ModelSim Info: # -- Compiling module fiftyfivenm_asmiblock
+ModelSim Info: # -- Compiling module fiftyfivenm_chipidblock
+ModelSim Info: # -- Compiling module fiftyfivenm_oscillator
+ModelSim Info: # -- Compiling module fiftyfivenm_controller
+ModelSim Info: # -- Compiling module fiftyfivenm_crcblock
+ModelSim Info: # -- Compiling module fiftyfivenm_rublock
+ModelSim Info: # -- Compiling module fiftyfivenm_jtag
+ModelSim Info: # -- Compiling module fiftyfivenm_adcblock
+ModelSim Info: # -- Compiling module fiftyfivenm_phase_detector
+ModelSim Info: # 
+ModelSim Info: # Top level modules:
+ModelSim Info: # 	fiftyfivenm_dffe
+ModelSim Info: # 	fiftyfivenm_mux21
+ModelSim Info: # 	fiftyfivenm_and1
+ModelSim Info: # 	fiftyfivenm_and16
+ModelSim Info: # 	fiftyfivenm_bmux21
+ModelSim Info: # 	fiftyfivenm_b17mux21
+ModelSim Info: # 	fiftyfivenm_nmux21
+ModelSim Info: # 	fiftyfivenm_b5mux21
+ModelSim Info: # 	fiftyfivenm_latch
+ModelSim Info: # 	fiftyfivenm_routing_wire
+ModelSim Info: # 	fiftyfivenm_lcell_comb
+ModelSim Info: # 	fiftyfivenm_ff
+ModelSim Info: # 	fiftyfivenm_ram_block
+ModelSim Info: # 	fiftyfivenm_mac_mult
+ModelSim Info: # 	fiftyfivenm_mac_out
+ModelSim Info: # 	fiftyfivenm_pseudo_diff_out
+ModelSim Info: # 	fiftyfivenm_io_pad
+ModelSim Info: # 	fiftyfivenm_pll_reg
+ModelSim Info: # 	fiftyfivenm_pll
+ModelSim Info: # 	fiftyfivenm_clkctrl
+ModelSim Info: # 	fiftyfivenm_io_latch
+ModelSim Info: # 	fiftyfivenm_phy_clkbuf
+ModelSim Info: # 	fiftyfivenm_io_clock_divider
+ModelSim Info: # 	fiftyfivenm_io_ibuf
+ModelSim Info: # 	fiftyfivenm_io_obuf
+ModelSim Info: # 	fiftyfivenm_ddio_out
+ModelSim Info: # 	fiftyfivenm_ddio_oe
+ModelSim Info: # 	fiftyfivenm_ddio_in
+ModelSim Info: # 	fiftyfivenm_unvm
+ModelSim Info: # 	fiftyfivenm_asmiblock
+ModelSim Info: # 	fiftyfivenm_chipidblock
+ModelSim Info: # 	fiftyfivenm_oscillator
+ModelSim Info: # 	fiftyfivenm_controller
+ModelSim Info: # 	fiftyfivenm_crcblock
+ModelSim Info: # 	fiftyfivenm_rublock
+ModelSim Info: # 	fiftyfivenm_jtag
+ModelSim Info: # 	fiftyfivenm_adcblock
+ModelSim Info: # 	fiftyfivenm_phase_detector
+ModelSim Info: # vlog -vlog01compat -work fiftyfivenm_ver {c:/altera/15.0/quartus/eda/sim_lib/mentor/fiftyfivenm_atoms_ncrypt.v}
+ModelSim Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+ModelSim Info: # 
+ModelSim Info: # Top level modules:
+ModelSim Info: # 
+ModelSim Info: # if {[file exists gate_work]} {
+ModelSim Info: # 	vdel -lib gate_work -all
+ModelSim Info: # }
+ModelSim Info: # vlib gate_work
+ModelSim Info: # vmap work gate_work
+ModelSim Info: # Modifying modelsim.ini
+ModelSim Info: # 
+ModelSim Info: # vlog -vlog01compat -work work +incdir+. {encode42.vo}
+ModelSim Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+ModelSim Info: # -- Compiling module encode42
+ModelSim Info: # 
+ModelSim Info: # Top level modules:
+ModelSim Info: # 	encode42
+ModelSim Info: # 
+ModelSim Info: # vlog -vlog01compat -work work +incdir+F:/tutorial2/Lab_encode {F:/tutorial2/Lab_encode/encode42_tb.v}
+ModelSim Info: # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+ModelSim Info: # -- Compiling module encode42_tb
+ModelSim Info: # 
+ModelSim Info: # Top level modules:
+ModelSim Info: # 	encode42_tb
+ModelSim Info: # 
+ModelSim Info: # vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  encode42_tb
+ModelSim Info: # vsim +transport_int_delays +transport_path_delays -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps encode42_tb 
+ModelSim Info: # ** Note: (vsim-3812) Design is being optimized...
+ModelSim Info: # 
+ModelSim Info: # Loading work.encode42_tb(fast)
+ModelSim Info: # Loading work.encode42(fast)
+ModelSim Info: # Loading fiftyfivenm_ver.fiftyfivenm_lcell_comb(fast)
+ModelSim Info: # Loading fiftyfivenm_ver.fiftyfivenm_io_obuf(fast)
+ModelSim Info: # Loading fiftyfivenm_ver.fiftyfivenm_io_ibuf(fast)
+ModelSim Info: # Loading fiftyfivenm_ver.fiftyfivenm_lcell_comb(fast__1)
+ModelSim Info: # Loading fiftyfivenm_ver.fiftyfivenm_lcell_comb(fast__2)
+ModelSim Info: # Loading fiftyfivenm_ver.fiftyfivenm_lcell_comb(fast__3)
+ModelSim Info: # Loading fiftyfivenm_ver.fiftyfivenm_lcell_comb(fast__4)
+ModelSim Info: # Loading fiftyfivenm_ver.fiftyfivenm_lcell_comb(fast__5)
+ModelSim Info: # Loading fiftyfivenm_ver.fiftyfivenm_lcell_comb(fast__6)
+ModelSim Info: # Loading fiftyfivenm_ver.fiftyfivenm_lcell_comb(fast__7)
+ModelSim Info: # Loading fiftyfivenm_ver.fiftyfivenm_lcell_comb(fast__8)
+ModelSim Info: # Loading fiftyfivenm_ver.fiftyfivenm_lcell_comb(fast__9)
+ModelSim Info: # Loading fiftyfivenm_ver.fiftyfivenm_unvm(fast)
+ModelSim Info: # 
+ModelSim Info: # add wave *
+ModelSim Info: # 
+ModelSim Info: # view structure
+ModelSim Info: # .main_pane.structure.interior.cs.body.struct
+ModelSim Info: # view signals
+ModelSim Info: # .main_pane.objects.interior.cs.body.tree
+ModelSim Info: # run 100 us
+Info: NativeLink simulation flow was successful

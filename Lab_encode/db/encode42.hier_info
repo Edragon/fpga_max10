@@ -1,0 +1,26 @@
+|encode42
+sw[0] => Decoder0.IN3
+sw[0] => led1[1].IN0
+sw[1] => rled2[0].IN0
+sw[1] => Decoder0.IN2
+sw[1] => led1[1].IN1
+sw[1] => led1[0].DATAA
+sw[2] => rled2[1].IN0
+sw[2] => Decoder0.IN1
+sw[2] => led1[0].OUTPUTSELECT
+sw[2] => led1[1].IN1
+sw[2] => led1[1].DATAA
+sw[3] => rled2[0].IN1
+sw[3] => rled2[1].IN1
+sw[3] => Decoder0.IN0
+sw[3] => led1[0].OUTPUTSELECT
+sw[3] => led1[1].IN1
+sw[3] => led1[1].OUTPUTSELECT
+led1[0] << led1[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+led1[1] << led1[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+led2[0] << rled2[0].DB_MAX_OUTPUT_PORT_TYPE
+led2[1] << rled2[1].DB_MAX_OUTPUT_PORT_TYPE
+led3[0] << led3.DB_MAX_OUTPUT_PORT_TYPE
+led3[1] << led3.DB_MAX_OUTPUT_PORT_TYPE
+
+

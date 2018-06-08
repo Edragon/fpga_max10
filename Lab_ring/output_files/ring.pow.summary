@@ -1,0 +1,12 @@
+PowerPlay Power Analyzer Status : Successful - Tue Jan 10 13:51:47 2017
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : ring
+Top-level Entity Name : ring
+Family : MAX 10
+Device : 10M02SCM153I7G
+Power Models : Final
+Total Thermal Power Dissipation : 113.20 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 66.85 mW
+I/O Thermal Power Dissipation : 46.35 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

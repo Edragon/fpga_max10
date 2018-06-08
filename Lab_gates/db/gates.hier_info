@@ -1,0 +1,17 @@
+|gates
+a => z[5].IN0
+a => z[3].IN0
+a => z[1].IN0
+a => z[0].IN0
+b => z[5].IN1
+b => z[3].IN1
+b => z[1].IN1
+b => z[0].IN1
+led[0] << z[0].DB_MAX_OUTPUT_PORT_TYPE
+led[1] << z[1].DB_MAX_OUTPUT_PORT_TYPE
+led[2] << z[3].DB_MAX_OUTPUT_PORT_TYPE
+led[3] << z[3].DB_MAX_OUTPUT_PORT_TYPE
+led[4] << z[5].DB_MAX_OUTPUT_PORT_TYPE
+led[5] << z[5].DB_MAX_OUTPUT_PORT_TYPE
+
+

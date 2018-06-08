@@ -1,0 +1,18 @@
+Fitter Status : Successful - Wed Jan 11 14:33:58 2017
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : detector
+Top-level Entity Name : detector
+Family : MAX 10
+Device : 10M02SCM153I7G
+Timing Models : Final
+Total logic elements : 6 / 2,304 ( < 1 % )
+    Total combinational functions : 6 / 2,304 ( < 1 % )
+    Dedicated logic registers : 4 / 2,304 ( < 1 % )
+Total registers : 4
+Total pins : 4 / 112 ( 4 % )
+Total virtual pins : 0
+Total memory bits : 0 / 110,592 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 32 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0

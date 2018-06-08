@@ -1,0 +1,117 @@
+//********************************************************
+//
+//   Copyright(c)2016, STEP FPGA 
+//   All rights reserved
+//
+//   File name       :   ALU.v
+//   Module name     :   ALU
+
+//   Author          :   STEP
+//   Email           :   info@stepfpga.com
+//   Data            :   2016/08/31
+ 
+//   Version         :   V1.0
+//   Description     ��  4 bits ALU
+//
+//   Modification history
+//   ----------------------------------------------------------------------------
+// Version       Data(2016/08/31)   V1.0
+// Description
+//
+//********************************************************
+// 
+// 
+//*******************
+//DEFINE MODULE PORT
+//*******************
+module ALU
+(
+	//INPUT
+	alusel		 ,
+	
+	//OUTPUT
+	led
+);
+
+	//*******************
+	//DEFINE INPUT
+	//*******************
+	input   [2:0]       alusel		; 
+
+	//*******************
+	//DEFINE OUTPUT
+	//*******************
+	output  [7:0]		led			;	
+	
+	//******************** 
+	//OUTPUT ATTRIBUTE 
+	//********************     
+	reg    				nf			;
+	reg    				zf			;
+	reg    				cf			;
+	reg    				ovf			;
+	reg   [3:0]    	    y 			;
+	wire  [7:0]    	    led 		;
+	
+	//*********************
+	//INNER SIGNAL DECLARATION
+	//*********************
+	reg   [4:0]       	temp     	; 
+	reg   [3:0]			a           ;
+	reg   [3:0]			b			;
+
+	//*********************
+	//MAIN CORE  
+	//*********************
+	always @ (*)
+		begin
+			a=4'b0101;								//assign the input value a
+			b=4'b0010;								//assign the input value b
+			cf=0;
+			ovf=0;
+			temp=5'b00000;
+			case(alusel)
+				3'b000:y=a;
+				
+				3'b001:begin 
+						temp={1'b0,a}+{1'b0,b};		//add
+						y=temp[3:0];
+						cf=temp[4];
+						ovf=y[3]^a[3]^b[3]^cf;
+					   end
+				
+				3'b010:begin						//subA
+						temp={1'b0,a}-{1'b0,b};
+						y=temp[3:0];
+						cf=temp[4];
+						ovf=y[3]^a[3]^cf;
+					   end
+				
+				3'b011:begin
+						temp={1'b0,b}-{1'b0,a};		//subB
+						y=temp[3:0];
+						cf=temp[4];
+						ovf=y[3]^a[3]^cf;
+					   end
+					  
+				3'b100:y=~a;						//NOT
+				
+				3'b101:y=a&b;						//AND
+				
+				3'b110:y=a|b;						//OR
+				
+				3'b111:y=a^b;						//XOR
+						
+				default:y=a;
+				
+			endcase
+			nf=y[3];
+			if(y==4'b0000)
+				zf=1;
+			else
+				zf=0;
+		end
+						
+	assign led={~cf,~ovf,~zf,~nf,~y};
+	
+endmodule 

@@ -1,0 +1,12 @@
+PowerPlay Power Analyzer Status : Successful - Mon Jan 09 14:29:32 2017
+Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
+Revision Name : mux21
+Top-level Entity Name : mux21
+Family : MAX 10
+Device : 10M02SCM153I7G
+Power Models : Preliminary
+Total Thermal Power Dissipation : 478.57 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 101.21 mW
+I/O Thermal Power Dissipation : 377.36 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

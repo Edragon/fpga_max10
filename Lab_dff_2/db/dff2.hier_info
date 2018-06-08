@@ -1,0 +1,8 @@
+|dff2
+clk => q4.IN0
+clk => q5.IN0
+d => q6.IN0
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+notq <= q2.DB_MAX_OUTPUT_PORT_TYPE
+
+

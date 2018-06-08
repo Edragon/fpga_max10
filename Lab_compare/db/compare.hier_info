@@ -1,0 +1,34 @@
+|compare
+a[0] => a_eq_b.IN1
+a[0] => a_eq_b.IN1
+a[0] => a_gt_b.IN1
+a[0] => a_gt_b.IN1
+a[0] => a_1t_b.IN1
+a[0] => a_1t_b.IN1
+a[0] => a_eq_b.IN1
+a[0] => a_eq_b.IN1
+a[1] => a_eq_b.IN1
+a[1] => a_eq_b.IN1
+a[1] => a_gt_b.IN0
+a[1] => a_gt_b.IN0
+a[1] => a_1t_b.IN0
+a[1] => a_1t_b.IN0
+a[1] => a_eq_b.IN1
+a[1] => a_eq_b.IN1
+b[0] => a_eq_b.IN0
+b[0] => a_1t_b.IN0
+b[0] => a_1t_b.IN1
+b[0] => a_gt_b.IN1
+b[0] => a_gt_b.IN0
+b[0] => a_eq_b.IN0
+b[1] => a_eq_b.IN1
+b[1] => a_1t_b.IN1
+b[1] => a_1t_b.IN1
+b[1] => a_gt_b.IN1
+b[1] => a_gt_b.IN1
+b[1] => a_eq_b.IN1
+led[0] << a_eq_b.DB_MAX_OUTPUT_PORT_TYPE
+led[1] << a_gt_b.DB_MAX_OUTPUT_PORT_TYPE
+led[2] << a_1t_b.DB_MAX_OUTPUT_PORT_TYPE
+
+

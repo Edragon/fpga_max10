@@ -1,0 +1,17 @@
+To			,	Location
+
+//FPGA 时钟
+clk			,	PIN_J5
+
+//按键模块
+rst_n			,	PIN_J14
+
+//三色灯1 MSB~LSB = {Red,Green,Blue}
+out[0]		,	PIN_E14
+out[1]		,	PIN_E15
+out[2]		,	PIN_G15
+
+//三色灯2 MSB~LSB = {Red,Green,Blue}
+out[3]		,	PIN_D12
+out[4]		,	PIN_C14
+out[5]		,	PIN_C15

@@ -1,0 +1,17 @@
+To			,	Location
+
+//²¦Âë¿ª¹Ø
+sw[0]			,	PIN_J12
+sw[1]			,	PIN_H11
+sw[2]			,	PIN_H12
+sw[3]			,	PIN_H13
+
+//LEDµÆÄ£¿é
+led[0]			,	PIN_K11
+led[1]			,	PIN_L11
+led[2]			,	PIN_K12
+led[3]			,	PIN_L15
+led[4]			,	PIN_M12
+led[5]			,	PIN_M14
+led[6]			,	PIN_N14
+led[7]			,	PIN_N15

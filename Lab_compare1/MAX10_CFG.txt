@@ -1,0 +1,18 @@
+To			,	Location
+
+//按键模块
+y[0]			,	PIN_J9
+y[1]			,	PIN_K14
+y[2]			,	PIN_J11
+y[3]			,	PIN_J14
+
+//拨码开关
+x[0]			,	PIN_J12
+x[1]			,	PIN_H11
+x[2]			,	PIN_H12
+x[3]			,	PIN_H13
+
+//LED灯模块
+eq_led			,	PIN_K11
+gt_led			,	PIN_L11
+lt_led			,	PIN_K12

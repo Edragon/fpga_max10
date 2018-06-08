@@ -1,0 +1,17 @@
+To			,	Location
+
+//²¦Âë¿ª¹Ø
+addr[0]			,	PIN_J12
+addr[1]			,	PIN_H11
+addr[2]			,	PIN_H12
+addr[3]			,	PIN_H13
+
+//LEDµÆÄ£¿é
+data[0]			,	PIN_K11
+data[1]			,	PIN_L11
+data[2]			,	PIN_K12
+data[3]			,	PIN_L15
+data[4]			,	PIN_M12
+data[5]			,	PIN_M14
+data[6]			,	PIN_N14
+data[7]			,	PIN_N15

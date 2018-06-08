@@ -1,0 +1,12 @@
+PowerPlay Power Analyzer Status : Successful - Thu Jan 05 11:33:59 2017
+Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
+Revision Name : dff1
+Top-level Entity Name : dff1
+Family : MAX 10
+Device : 10M02SCM153I7G
+Power Models : Preliminary
+Total Thermal Power Dissipation : 414.96 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 95.86 mW
+I/O Thermal Power Dissipation : 319.10 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

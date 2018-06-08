@@ -1,0 +1,150 @@
+Flow report for mux21
+Mon Jan 09 14:29:47 2017
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Mon Jan 09 14:29:47 2017       ;
+; Quartus II 64-Bit Version          ; 15.0.0 Build 145 04/22/2015 SJ Full Version ;
+; Revision Name                      ; mux21                                       ;
+; Top-level Entity Name              ; mux21                                       ;
+; Family                             ; MAX 10                                      ;
+; Device                             ; 10M02SCM153I7G                              ;
+; Timing Models                      ; Advance                                     ;
+; Total logic elements               ; 2 / 2,304 ( < 1 % )                         ;
+;     Total combinational functions  ; 2 / 2,304 ( < 1 % )                         ;
+;     Dedicated logic registers      ; 0 / 2,304 ( 0 % )                           ;
+; Total registers                    ; 0                                           ;
+; Total pins                         ; 7 / 112 ( 6 % )                             ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0 / 110,592 ( 0 % )                         ;
+; Embedded Multiplier 9-bit elements ; 0 / 32 ( 0 % )                              ;
+; Total PLLs                         ; 0 / 1 ( 0 % )                               ;
+; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
+; ADC blocks                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 01/09/2017 14:28:30 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; mux21               ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                            ;
++--------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
++--------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 203050742078873.148394331022056       ; --            ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; mux21_tb       ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; mux21_tb                              ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                           ; --            ; --          ; eda_simulation ;
+; EDA_RUN_TOOL_AUTOMATICALLY           ; On                                    ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim (Verilog)                    ; <None>        ; --          ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                       ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; mux21_tb.v                            ; --            ; --          ; mux21_tb       ;
+; EDA_TEST_BENCH_MODULE_NAME           ; mux21_tb                              ; --            ; --          ; mux21_tb       ;
+; EDA_TEST_BENCH_NAME                  ; mux21_tb                              ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 10 us                                 ; --            ; --          ; mux21_tb       ;
+; EDA_TIME_SCALE                       ; 1 ps                                  ; --            ; --          ; eda_simulation ;
+; FLOW_ENABLE_POWER_ANALYZER           ; On                                    ; Off           ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP               ; 100                                   ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; -40                                   ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                     ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                     ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                            ; --            ; --          ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                            ; --            ; --          ; --             ;
+; PARTITION_COLOR                      ; 16764057                              ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                 ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                                ; --            ; --          ; Top            ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                   ; --            ; --          ; --             ;
+; POWER_DEFAULT_INPUT_IO_TOGGLE_RATE   ; 12.5 %                                ; 12.5%         ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                          ; --            ; --          ; --             ;
++--------------------------------------+---------------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:27     ; 1.0                     ; 685 MB              ; 00:01:02                           ;
+; Fitter                    ; 00:00:12     ; 1.0                     ; 1269 MB             ; 00:00:12                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 632 MB              ; 00:00:01                           ;
+; PowerPlay Power Analyzer  ; 00:00:12     ; 1.0                     ; 720 MB              ; 00:00:13                           ;
+; TimeQuest Timing Analyzer ; 00:00:07     ; 1.0                     ; 724 MB              ; 00:00:07                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 595 MB              ; 00:00:01                           ;
+; Total                     ; 00:01:00     ; --                      ; --                  ; 00:01:36                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; Aaryn-Computer   ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; Aaryn-Computer   ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; Aaryn-Computer   ; Windows 7 ; 6.2        ; x86_64         ;
+; PowerPlay Power Analyzer  ; Aaryn-Computer   ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; Aaryn-Computer   ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; Aaryn-Computer   ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off mux21 -c mux21
+quartus_fit --read_settings_files=off --write_settings_files=off mux21 -c mux21
+quartus_asm --read_settings_files=off --write_settings_files=off mux21 -c mux21
+quartus_pow --read_settings_files=off --write_settings_files=off mux21 -c mux21
+quartus_sta mux21 -c mux21
+quartus_eda --read_settings_files=off --write_settings_files=off mux21 -c mux21
+
+
+

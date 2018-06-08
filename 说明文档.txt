@@ -1,0 +1,34 @@
+数字电路基础实验例程
+
+Lab_gates		2输入基本逻辑门电路（与、与非、或、与或、异或、同或）
+Lab_gates1		多输入基本逻辑门电路
+Lab_karnaugh		由卡诺图简化后电路描述方法
+Lab_compare		2输入比较器电路，数据流级描述方式
+Lab_compare1		多输入比较器电路
+Lab_mux21		2选一电路，采用多种描述方法
+Lab_mux41		4选一电路，运用模块调用方法
+Lab_decode		3-8译码器电路，采用两种方法描述
+Lab_encode		编码器电路，采用3种不同方法实现
+Lab_bcd4		4位二进制转换为BCD码
+Lab_bcd8		8位二进制数转换为BCD码
+Lab_gary		二进制与格雷码转换器
+Lab_mult		乘法器，2个4位的数相乘
+Lab_div			4位的除法器
+Lab_ALU			运算单元，整合了一些算术、逻辑函数，可实现直接输出、加法、减法、取反、与、或、异或等运算
+Lab_dff			边沿D触发器，采用数据流级描述方法
+Lab_dff1		带复位功能的D触发器，采用行为级描述方法
+Lab_register		一位寄存器单元的描述
+Lab_shift		移位寄存器
+Lab_ring		环形计数器，可循环的移位寄存器
+Lab_counter		计数器
+Lab_counter1		模10的重复计数器（计数在0到9之间重复）
+Lab_debounce		按键消抖程序
+Lab_singlepulse		单脉冲发生器电路
+Lab_pwmpulse		PWM波形发生电路
+Lab_divide		任意整数分频器电路
+Lab_segment		7段数码管静态显示程序
+Lab_segment1		7段数码管动态显示程序
+Lab_seqdetector		序列检测器（利用有限状态机实现）
+Lab_traffic		简易交通灯，一段式描述方法
+Lab_traffic2		简易交通灯，三段式描述方法
+Lab_rom			只读存储器（ROM）的Verilog实现方法，数组的赋值和读取

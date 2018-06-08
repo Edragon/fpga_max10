@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Wed Jan 04 14:23:26 2017
+Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
+Revision Name : debounce
+Top-level Entity Name : debounce
+Family : MAX 10
+Total logic elements : 31
+    Total combinational functions : 30
+    Dedicated logic registers : 23
+Total registers : 23
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
